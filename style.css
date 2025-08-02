@@ -688,6 +688,7 @@ footer {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  justify-content: center; /*changed*/
   gap: 15px;
   opacity: 0.8;
   transition: opacity 0.2s ease;
