@@ -549,7 +549,7 @@ footer {
 }
 
 .nav-links a {
-  margin-left: 60px;
+  margin-left: 50px; /*changed*/
   text-decoration: none;
   color: #222;
   font-size: 0.8rem;
@@ -577,7 +577,7 @@ footer {
 .hero-content {
   color: rgb(246, 246, 246);
   z-index: 2;
-  padding: 70px; /*changed*/
+  padding: 50px; /*changed*/
   margin-bottom: -5rem;
 }
 
@@ -648,7 +648,7 @@ footer {
   text-align: center;
   overflow: hidden;
   position: relative;
-  padding: 60px 50px; /*changed*/
+  padding: 60px 30px; /*changed*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -683,7 +683,7 @@ footer {
   border-radius: 40px;
   padding: 20px; /*changed*/
   width: 100%; /*changed*/
-  height: 165px; /*changed*/
+  height: 190px; /*changed*/
   transition: opacity 0.3 ease;
   overflow: hidden;
   display: flex;
@@ -713,7 +713,11 @@ footer {
   text-align: center;
   overflow: hidden;
   position: relative;
-  padding: 20px 30px 30px; /*changed*/
+  padding: 20px 20px 30px; /*changed*/
+  display: flex; /*changed*/
+  flex-direction: column; /*changed*/
+  align-items: center; /*changed*/
+  gap: 40px; /*changed*/
 }
 
 .products-section-head {
@@ -753,7 +757,6 @@ footer {
   justify-content: space-between;
 } */
 .products {
-  margin-top: 40px;
   display: grid; /*changed*/
   grid-template-columns: repeat(2, 1fr); /*changed*/
   grid-template-rows: auto auto; /*changed*/
@@ -814,7 +817,7 @@ footer {
   background-size: 4px 4px;
   overflow: hidden;
   position: relative;
-  padding: 50px; /*changed*/
+  padding: 35px; /*changed*/
   display: flex;
   flex-direction: column; /*changed*/
   justify-content: space-between;
