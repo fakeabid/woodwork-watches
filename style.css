@@ -365,7 +365,7 @@ body {
 .products-section {
   background-color: white;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   padding: 20px 40px 30px;
 }
@@ -711,7 +711,7 @@ footer {
 .products-section {
   background-color: white;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   padding: 20px 20px 30px; /*changed*/
   display: flex; /*changed*/
